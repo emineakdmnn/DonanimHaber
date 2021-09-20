@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/emine/AndroidStudioProjects/DonanmHaber/app/src/main/res/drawable/ic_baseline_star_border_24.xml" value="0.2203125" />
+        <entry key="..\:/Users/emine/AndroidStudioProjects/DonanmHaber/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
+        <entry key="..\:/Users/emine/AndroidStudioProjects/DonanmHaber/app/src/main/res/drawable/ic_star_border.xml" value="0.2203125" />
+        <entry key="..\:/Users/emine/AndroidStudioProjects/DonanmHaber/app/src/main/res/layout/activity_detail.xml" value="0.1794871794871795" />
+        <entry key="..\:/Users/emine/AndroidStudioProjects/DonanmHaber/app/src/main/res/layout/activity_detail3.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/emine/AndroidStudioProjects/DonanmHaber/app/src/main/res/layout/activity_main.xml" value="0.17" />
+        <entry key="..\:/Users/emine/AndroidStudioProjects/DonanmHaber/app/src/main/res/layout/fragment_favorites.xml" value="0.19701086956521738" />
+        <entry key="..\:/Users/emine/AndroidStudioProjects/DonanmHaber/app/src/main/res/layout/fragment_news.xml" value="0.10960144927536232" />
+        <entry key="..\:/Users/emine/AndroidStudioProjects/DonanmHaber/app/src/main/res/layout/fragment_overview.xml" value="0.19701086956521738" />
+        <entry key="..\:/Users/emine/AndroidStudioProjects/DonanmHaber/app/src/main/res/layout/item_news.xml" value="0.21" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

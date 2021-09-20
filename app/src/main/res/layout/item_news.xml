@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <variable
+            name="news"
+            type="com.emineakduman.donanmhaber.model.news.NewsResults" />
+    </data>
+<com.google.android.material.card.MaterialCardView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="4dp"
+    app:cardCornerRadius="8dp">
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            app:imageFromUrl="@{news.image.value}"
+            android:scaleType="fitXY"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:src="@drawable/ic_launcher_background"
+            android:clickable="true"
+            android:id="@+id/item_news_poster"
+            android:focusable="true">
+
+        </ImageView>
+
+        <TextView
+            android:id="@+id/item_news_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/item_news_poster"
+            android:padding="8dp"
+            android:text="@{news.title}"
+            android:textColor="#555"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            tools:text="News Title"></TextView>
+
+    </RelativeLayout>
+
+
+</com.google.android.material.card.MaterialCardView>
+
+</layout>
